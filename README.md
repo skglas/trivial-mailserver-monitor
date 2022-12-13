@@ -1,6 +1,9 @@
 # trivial-mailserver-monitor
 
 ## Simple mail server monitoring loop
+
+Tested on SBCL on Debian.
+
 Assumptions: you have 3 e-mail accounts:
  the robot (used to monitor) and the destination mail server mailbox
  (mail server to be monitored).
