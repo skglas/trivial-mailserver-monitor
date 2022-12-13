@@ -1,0 +1,9 @@
+defaults
+tls on
+delivery maildir ~/mpop-in
+account myisp
+host pop3.myisp.example
+auth on
+user monitoring-robot@yourisp.example
+password mypassword
+account default : myisp
